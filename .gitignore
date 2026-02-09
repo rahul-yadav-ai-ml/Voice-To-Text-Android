@@ -1,26 +1,24 @@
-# Keystore (NEVER COMMIT)
-*.jks
+# === Android / Gradle ===
+.gradle/
+build/
+*/build/
 
-# Local configuration
+# === APKs / Bundles ===
+*.apk
+*.aab
+*.dm
+
+# === Keystore (NEVER COMMIT) ===
+*.jks
+*.keystore
+
+# === Local config ===
 local.properties
 
-# Build outputs
-/build/
-app/build/
-
-# IDE files
+# === IDE files ===
 .idea/
 *.iml
 
-# OS files
+# === OS files ===
 .DS_Store
 Thumbs.db
-
-# Gradle
-.gradle/
-build/
-app/build/
-
-# APKs
-*.apk
-*.aab
