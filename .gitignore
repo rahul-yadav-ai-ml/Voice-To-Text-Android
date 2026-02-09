@@ -15,3 +15,12 @@ app/build/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Gradle
+.gradle/
+build/
+app/build/
+
+# APKs
+*.apk
+*.aab
