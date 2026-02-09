@@ -1,0 +1,17 @@
+# Keystore (NEVER COMMIT)
+*.jks
+
+# Local configuration
+local.properties
+
+# Build outputs
+/build/
+app/build/
+
+# IDE files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
